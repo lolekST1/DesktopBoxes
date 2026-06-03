@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller (artefakty budowania – plik .exe trafia do Releases)
+build/
+dist/
+*.spec
+
+# Konfiguracja użytkownika / dane runtime
+config.json
+*.json.bak
+*.json.tmp
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
